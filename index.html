@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no,maximum-scale=1">
+<meta name="theme-color" content="#0e1912">
+<title>DPL Flick Cricket</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{width:100%;height:100%;overflow:hidden;background:#0b120e;
+    font-family:"Trebuchet MS",Verdana,system-ui,sans-serif}
+  #stage{display:block;position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+  #boot{position:absolute;inset:0;display:grid;place-items:center;color:#8fbf9a;
+    font-size:14px;letter-spacing:.18em;text-transform:uppercase}
+  #boot.gone{display:none}
+</style>
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <div id="boot">Dhakkan Premier League</div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
